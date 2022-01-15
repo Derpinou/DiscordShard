@@ -89,14 +89,14 @@ Lancer le Sharding Manager:
 ```js
 const { ShardingManager } = require('discord.js') ;
 
-const manager = new ShardingManager('./index.js', { token: 'MicheL_T0K3N' }) ;
+const manager = new ShardingManager('./index.js', { token: 'T0K3N' }) ;
 
 manager.on('shardCreate', shard => console.log(`Launched shard ${shard.id}`)) ;
 
 manager.spawn() ;
 ```
 `index.js`
-```
+```js
 const { Client, Intents } = require('discord.js') ;
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] }) ;
@@ -104,7 +104,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] }) ;
 /*
     Code de votre bot
 */
-client.login('MicheL_T0K3N');
+client.login('T0K3N');
 ```
 
 * - ### L'internal Sharding
