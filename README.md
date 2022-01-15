@@ -47,6 +47,7 @@ Il faut savoir que tous les messages privés du bot sont sur le premier shard, d
 
 * - ### Le Sharding Manager
 Dans leur librairie, Discord.js propose un systeme de shard déja tout fait et trés simple d'utilisation, ce dernier ne va pas se contenter de lancer un client avec x shards sur son instance, il va lancer autant d'instances que de shards, voici un schéma pour comprendre son fonctionnement:![Sharding Manager](http://i.sayrix.fr/QfdJ.png)
+
 Pour mieux comprendre le fonctionnement, imaginez vous avez votre `index.js` avec le contenu suivant: 
 ```js
 const { Client } = require('discord.js') ;
