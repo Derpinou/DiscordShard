@@ -142,6 +142,6 @@ const client = new Discord.Client({
 
 ## Conclusion
 
-Et voila, maintenant vous savez tout sur le sharding discord, Si vous avez des questions n'hésitez pas à me mentionner sur le [serveur de Michel](https://discord.com/invite/gca).
+Et voila, maintenant vous savez tout sur le sharding discord, Si vous avez des questions n'hésitez pas à me mentionner sur mon [serveur](https://discord.gg/zYz9sgNfww).
 
 Merci d'avoir lu ce tutoriel en esperant vous avoir éclairer sur le sujet.
